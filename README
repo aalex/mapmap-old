@@ -1,0 +1,47 @@
+::
+
+   __  __             __  __             
+  |  \/  | __ _ _ __ |  \/  | __ _ _ __  
+  | |\/| |/ _` | '_ \| |\/| |/ _` | '_ \ 
+  | |  | | (_| | |_) | |  | | (_| | |_) |
+  |_|  |_|\__,_| .__/|_|  |_|\__,_| .__/ 
+               |_|                |_|    
+
+About
+-----
+MapMap is a free software for video mapping.
+
+
+History
+-------
+Written by Alexandre Quessy in 2011.
+
+License
+-------
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License and GNU General Public License as published by the Free Software Foundation; either version 3 of the Licenses, or (at your option) any later version. The library itself is licensed under LGPL while the commandline application is licensed under GPL.
+
+
+Authors
+-------
+* Alexandre Quessy <alexandre@quessy.net>
+
+
+Project URL
+-----------
+http://mapmap.toonloop.com/
+
+The source code is currently managed at http://github.com/aalex/mapmap
+
+
+
+Installation
+------------
+Here is how to build and install it on Debian GNU/Linux or Ubuntu::
+
+  $ sudo apt-get install help2man gettext automake bison build-essential flex libtool 
+  $ sudo apt-get install libxml2-dev libclutter-1.0-dev libglib-2.0-dev libboost-all-dev libclutter-gst-0.10-dev
+  $ ./autogen.sh
+  $ ./configure
+  $ make
+  $ sudo make install
+
